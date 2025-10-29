@@ -1,0 +1,38 @@
+{
+  "name": "billing-software",
+  "version": "1.0.0",
+  "description": "Billing software application with React frontend and Electron backend",
+  "author": "Janani",
+  "main": "electron/main.js",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "build:react": "cd frontend && npm install && npm run build",
+    "build:electron": "electron-builder",
+    "build": "npm run build:react && npm run build:electron",
+    "start": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.billing.software",
+    "productName": "Billing Software",
+    "files": [
+      "frontend/dist/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "buildResources": "electron"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  }
+}
