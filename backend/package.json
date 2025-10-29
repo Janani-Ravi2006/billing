@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Billing Application Backend + Frontend (Single Deployment)",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd ../frontend && npm install --legacy-peer-deps && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Janani",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
@@ -21,6 +21,7 @@
     "mysql2": "^3.14.5",
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.9",
-    "razorpay": "^2.9.6"
+    "razorpay": "^2.9.6",
+    "path": "^0.12.7"
   }
 }
