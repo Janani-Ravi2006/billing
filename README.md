@@ -16,7 +16,7 @@ ________________________________________
 <h2>📁 Project Structure</h2> <h3>🗂️ Overview</h3> 
 billing-software/
 ├── backend/        → Node.js + Express REST API
-└── frontend/       → React + Vite UI (with Electron desktop wrapper)
+└── frontend/       → React + Vite UI 
 <h3>⚙️ Backend</h3> 
 backend/
 ├── config/
