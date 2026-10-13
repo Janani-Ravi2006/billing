@@ -1,19 +1,6 @@
-<h1 align="center">🧾 Smart Billing and Inventory Management System</h1> <p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> </p> <h3 align="center"> A web-based application that automates billing, inventory tracking, purchases, and financial reporting for small to medium-sized businesses. </h3> <p align="center"> It reduces manual errors, keeps a digital record of every transaction, and gives real-time insight into stock, sales, and overdue payments. </p> <p align="center">
+<h1 align="center">🧾 Smart Billing and Inventory Management System</h1> <p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> </p> <h3 align="center"> A web-based (and desktop-ready) application that automates billing, inventory tracking, purchases, and financial reporting for small to medium-sized businesses. </h3> <p align="center"> It reduces manual errors, keeps a digital record of every transaction, and gives real-time insight into stock, sales, and overdue payments. </p> <p align="center"> 
 ________________________________________
-<h2>✨ Features</h2> 
-•	🔐 Authentication – Signup, login, logout, and session handling
-•	📊 Dashboard – Key business metrics, date-filtered financial overview (All Time / Today / Custom), and a notification panel
-•	🗂️ Category & Product Management – Add, edit, delete, and search categories and products (with HSN code support)
-•	🛒 Purchase Management – Record purchases with auto-calculated totals, Paid/Pending status, printable receipts, and Razorpay payment integration
-•	📦 Stock Management – Real-time stock tracking with price-limit validation and low-stock alerts (toast, browser/desktop notification, email, and red highlighting at ≤ 20 units)
-•	🧮 Smart Billing – Multi-tab billing, phone-based customer lookup, previous-due detection, Cash / Credit / GPay payments, partial payments, and multi-copy printing
-•	🌐 Bilingual Bills – English and Tamil (தமிழ்) billing and receipts
-•	👥 Customer Accounts – Searchable customer list, due amounts, and full purchase history
-•	⏰ Overdue Bills – Overdue tracking with colour-coded aging, filters (7+/30+/60+ days), alerts, and in-app payment collection
-•	👷 Executive & Packer Management – Salary processing, packer entry (time in/out), and performance reports
-•	📈 Reports – Product Sales Report (charts), Executive Report, Packer Report, and Package Section Report with CSV export and print
-•	💰 Transactions – Income, Expense, and Profit calculation by date range
-•	📧 Email Alerts – Instant low-stock alerts and a daily low-stock summary report
+<h2>✨ Features</h2> <table> <tr> <th width="60"></th> <th align="left" width="280"><h3>Feature</h3></th> <th align="left"><h3>What it does</h3></th> </tr> <tr> <td align="center"><h2>🔐</h2></td> <td><h4>Authentication</h4></td> <td>Signup, login, logout, and secure session handling</td> </tr> <tr> <td align="center"><h2>📊</h2></td> <td><h4>Dashboard</h4></td> <td>Key business metrics, date-filtered financial overview (All Time / Today / Custom), and a notification panel</td> </tr> <tr> <td align="center"><h2>🗂️</h2></td> <td><h4>Category & Product Management</h4></td> <td>Add, edit, delete, and search categories and products with HSN code support</td> </tr> <tr> <td align="center"><h2>🛒</h2></td> <td><h4>Purchase Management</h4></td> <td>Auto-calculated totals, Paid/Pending status, printable receipts, and Razorpay payment integration</td> </tr> <tr> <td align="center"><h2>📦</h2></td> <td><h4>Stock Management</h4></td> <td>Real-time stock tracking, price-limit validation, and low-stock alerts (toast, desktop notification, email, red highlight at ≤ 20 units)</td> </tr> <tr> <td align="center"><h2>🧮</h2></td> <td><h4>Smart Billing</h4></td> <td>Multi-tab billing, phone-based customer lookup, previous-due detection, Cash / Credit / GPay, partial payments, and multi-copy printing</td> </tr> <tr> <td align="center"><h2>🌐</h2></td> <td><h4>Bilingual Bills</h4></td> <td>English and Tamil (தமிழ்) billing and receipts</td> </tr> <tr> <td align="center"><h2>👥</h2></td> <td><h4>Customer Accounts</h4></td> <td>Searchable customer list, due amounts, and full purchase history</td> </tr> <tr> <td align="center"><h2>⏰</h2></td> <td><h4>Overdue Bills</h4></td> <td>Colour-coded aging, 7+/30+/60+ day filters, alerts, and in-app payment collection</td> </tr> <tr> <td align="center"><h2>👷</h2></td> <td><h4>Executive & Packer Management</h4></td> <td>Salary processing, packer entry (time in/out), and performance reports</td> </tr> <tr> <td align="center"><h2>📈</h2></td> <td><h4>Reports</h4></td> <td>Product Sales, Executive, Packer, and Package Section reports with charts, CSV export, and print</td> </tr> <tr> <td align="center"><h2>💰</h2></td> <td><h4>Transactions</h4></td> <td>Income, Expense, and Profit calculation by date range</td> </tr> <tr> <td align="center"><h2>📧</h2></td> <td><h4>Email Alerts</h4></td> <td>Instant low-stock alerts and a daily low-stock summary report</td> </tr> </table> 
 ________________________________________
 <h2>🛠️ Tech Stack</h2> 
 Layer	Technologies
@@ -26,32 +13,78 @@ Desktop	Electron
 DevOps	Docker
 Architecture	MVC, RESTful API design, modular structure, async/await
 ________________________________________
-<h2>📁 Project Structure</h2> 
+<h2>📁 Project Structure</h2> <h3>🗂️ Overview</h3> 
 billing-software/
-├── backend/
-│   ├── config/            # Database configuration (db.js)
-│   ├── controllers/       # auth, category, product, purchase controllers
-│   ├── models/            # Sequelize models (Cart, Category, Product, Purchase, User)
-│   ├── routes/            # auth, bill, category, dashboard, executive, overdueBills,
-│   │                      # packer, payment, product, purchase, stock, transaction
-│   ├── Dockerfile
-│   ├── package.json
-│   └── server.js
-│
-└── frontend/
-    ├── electron/          # Electron main process (main.js)
-    ├── public/
-    ├── src/
-    │   ├── components/    # Billing, Dashboard, Category, Products, Purchase, Stock,
-    │   │                  # AccountPage, Overdue, Transaction, Packers, reports, etc.
-    │   ├── App.jsx
-    │   ├── main.jsx
-    │   └── index.css
-    ├── Dockerfile
-    ├── index.html
-    ├── tailwind.config.js
-    ├── vite.config.js
-    └── package.json
+├── backend/        → Node.js + Express REST API
+└── frontend/       → React + Vite UI (with Electron desktop wrapper)
+<h3>⚙️ Backend</h3> 
+backend/
+├── config/
+│   └── db.js                    # MySQL connection
+├── controllers/
+│   ├── authController.js
+│   ├── categoryController.js
+│   ├── productController.js
+│   └── purchaseController.js
+├── models/
+│   ├── Cart.js
+│   ├── categoryModel.js
+│   ├── productModel.js
+│   ├── purchaseModel.js
+│   └── userModel.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── billRoutes.js
+│   ├── categoryRoutes.js
+│   ├── dashboardRoutes.js
+│   ├── executiveRoutes.js
+│   ├── overdueBills.js
+│   ├── packerRoutes.js
+│   ├── payment.js
+│   ├── productRoutes.js
+│   ├── purchaseRoutes.js
+│   ├── stockRoutes.js
+│   └── transactionRoutes.js
+├── Dockerfile
+├── package.json
+└── server.js                    # App entry point
+<h3>🎨 Frontend</h3> 
+frontend/
+├── electron/
+│   └── main.js                  # Electron main process
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Category.jsx
+│   │   ├── SavedCategories.jsx
+│   │   ├── Products.jsx
+│   │   ├── SavedProducts.jsx
+│   │   ├── Purchase.jsx
+│   │   ├── Stock.jsx
+│   │   ├── Billing.jsx
+│   │   ├── AccountPage.jsx
+│   │   ├── Overdue.jsx
+│   │   ├── Transaction.jsx
+│   │   ├── ExecutiveSalary.jsx
+│   │   ├── ExecutiveReport.jsx
+│   │   ├── Packers.jsx
+│   │   ├── PackerEntry.jsx
+│   │   ├── PackerReport.jsx
+│   │   ├── PackageSectionReport.jsx
+│   │   └── ProductSalesReport.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── Dockerfile
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
 ________________________________________
 <h2>🗄️ Database Overview</h2> 
 Main tables: User, Category, Product, Purchase, Purchase Item, Stock, Bills, Bills Item, Customer, Packer, Transaction.
@@ -127,7 +160,7 @@ Executive / Packer	Salary processing, packing logs, reports
 Transactions	Income, expense, and profit analysis
 ________________________________________
 <h2>🔮 Future Enhancements</h2> 
-•	Role-based access control (admin / staff)
+•	Role-based access control 
 •	Barcode scanning for faster billing
 •	GST-compliant invoice formats
 •	Mobile app and cloud deployment
@@ -139,5 +172,5 @@ ________________________________________
 <h2>📜 License</h2> 
 This project was developed for academic purposes. Add a license of your choice (e.g., MIT) if you plan to make it open source.
 ________________________________________
-<p align="center"><b>Made with ❤️ by Janani R</b></p>
+<p align="center"><b>Made with  by Janani R</b></p>
 
