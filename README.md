@@ -1,4 +1,6 @@
 🧾 Smart Billing and Inventory Management System
+
+
 A web-based (and desktop-ready) application that automates billing, inventory tracking, purchases, and financial reporting for small to medium-sized businesses.
 It reduces manual errors, keeps a digital record of every transaction, and gives real-time insight into stock, sales, and overdue payments.
 ________________________________________
